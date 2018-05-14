@@ -7,5 +7,7 @@ var qrcode = new QRCode(document.getElementById("qrcode"), {
 // get url from current tab
 chrome.tabs.query({'active': true, 'lastFocusedWindow': true}, function (tabs) {
     var url = tabs[0].url;
-    qrcode.makeCode(url);
+    setTimeout(function() {
+      qrcode.makeCode(url);
+    }, 100);
 });
