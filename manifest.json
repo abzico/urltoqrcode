@@ -5,7 +5,7 @@
   "short_name": "urltoqrcode",
   "description": "URL to QRCode as Chrome extension",
   "author": "Wasin Thonkaew",
-  "version": "0.0.0.2",
+  "version": "0.0.0.3",
   "icons": {
     "32": "icon32.png",
     "48": "icon48.png",
